@@ -1,0 +1,14 @@
+body{
+    /* background-color: #c3c3c3; */
+    margin: 0;
+    padding: 0;
+}
+
+.mid{
+    border: 2px solid #ff6464;
+    margin-top: 2rem;
+}
+
+.opt{
+    color: #8ac6d1;
+}

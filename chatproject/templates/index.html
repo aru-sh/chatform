@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <title>Job-Form</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col lg12 offset-l5">
+                    <h3>FORM</h3>
+                    <hr class="hrr">
+                </div>
+            </div>
+
+            <div class="row">
+              <h5>Data : </h5>
+            </div>
+
+                <div class="row">
+                    <div class="col l8 mid offset-l2">
+                        <div class="row">
+                            <div class="col l12">
+                                <h5 class="question">Which Profile do you want to hire?</h5>
+                                <form action="#">
+                                    <p>
+                                      <label>
+                                        <input name="group1" type="radio" checked />
+                                        <span class="opt">Accountent</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                      <label>
+                                        <input name="group1" type="radio" />
+                                        <span class="opt">Maid</span>
+                                      </label>
+                                    </p>
+                                    <p>
+                                        <label>
+                                          <input name="group1" type="radio" />
+                                          <span class="opt">Driver</span>
+                                        </label>
+                                      </p>
+
+                                    <input type="submit" />
+                                  </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    </body>
+</html>
